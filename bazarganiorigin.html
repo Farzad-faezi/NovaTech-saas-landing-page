@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="Responsiveflexbox.css">
+        <link rel="stylesheet" href="bazarganiorigin.css">
+        <script src="bazarganioriginal.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <title>Title</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+     <div class="header container-fluid" style="height: 20%;">
+        <div class="menu">
+        <div id="filip">Tap here</div>
+            <div class="vertical-menu" id="slide">
+  <a href="#" class="active">Home</a>
+  <a href="loginbazargani.html">Login</a>
+  <a href="#">Link 2</a>
+</div>
+        </div>
+        <div class="slider-container1">
+    <a id="pic1" style="display:block">
+    <img class="img" alt="candy shop" src="images/programming-language-digital-device-screen-empty-it-department-office-used-app-development.jpg">
+  </a>
+  <a id="pic2" style="display:none">
+    <img class="img" alt="Hamilton boat" src="images/male-system-hacker-coding-security-program-pc-software-programming-firewall-data-encryption-server-using-computer-code-application-script-display.jpg">
+  </a>
+  <a id="pic3" style="display:none">
+    <img class="img" alt="water duel" src="images/it-professional-doing-multitasking-apartment-office-while-listening-music.jpg">
+  </a>  
+  </div>
+  </div>
+  <div class="tittle">  
+  <h2>why choose us?</h2>
+  </div> 
+  <div class="us">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="contant">
+            <div id="usfilip" class="usfilip">Reliability</div>
+            <div id="usslide" class="usslide">I take full responsibility and deliver exactly what i promise.</div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="contant">
+            <div id="usfilip" class="usfilip">On-Time Delivery</div>
+            <div id="usslide" class="usslide">Project are always delivered on schedule without compromising quality.</div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="contant">
+            <div id="usfilip" class="usfilip">Clear Communication</div>
+            <div id="usslide" class="usslide">I keep you updated and communicate clearly at every stage.</div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="contant">
+            <div id="usfilip" class="usfilip">Client-Focused</div>
+            <div id="usslide" class="usslide">Your goals satisfction are my top priority.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+<div class="container">
+  <div class="slider-wrapper">
+    <button id="prevbtn" class="nav-btn"></button>
+    <div class="static-slide">
+      <img src="" alt="">
+      <h3>Discount</h3>
+      <p id="clock">0:0:0</p>
+    </div>
+    <div class="product-container" id="slider">
+      <div class="product-card">
+        <img src="images/4884785.jpg" alt="">
+        <h3>HTML</h3>
+        <p></p>
+      </div>
+      <div class="product-card">
+        <img src="images/5395379.jpg" alt="">
+        <h3>CSS</h3>
+        <p></p>
+      </div>
+
+      <div class="product-card">
+        <img src="images/2202.q802.002.S.m009.c10.it specialist illustration flat.jpg" alt="">
+        <h3>Java script</h3>
+        <p></p>
+      </div>
+      <div class="product-card">
+        <img src="images/8751.jpg" alt="">
+        <h3>Clean code</h3>
+        <p></p>
+      </div>
+      <div class="product-card">
+        <img src="images/18941.jpg" alt="">
+        <h3>Responsive design</h3>
+        <p></p>
+      </div>
+      <div class="product-card">
+        <img src="images/2824236.jpg" alt="">
+        <h3>Flexbox</h3>
+        <p>20000000</p>
+      </div>
+      <div class="product-card">
+        <img src="images/693.jpg" alt="">
+        <h3>Jquery</h3>
+        <p>20000000</p>
+      </div>
+      <button id="nextbtn" class="nav-btn"></button>
+    </div>
+  </div>
+</div>
+<div class="footer container-fluid">
+  <div class="adress">
+    <h4>Adress : </h4>
+    <h4>Phone :</h4>
+  </div>
+  <div id="map" class="map"></div>
+  <div class="logo">logoooooooo</div>
+</div>
+<script>
+    $(document).ready(function(){
+        $("#filip").click(function(){
+            $("#slide").slideToggle("slow")
+        });
+    });
+
+     $(document).ready(function(){
+        $(".usfilip").click(function(){
+            $(this).next(".usslide").slideToggle("slow")
+        });
+    });
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1r0WGwV_MRE_l1hCBvxGhBg5C0fVmgzQ&callback=myMap"></script>
+     </body>
+</html>
