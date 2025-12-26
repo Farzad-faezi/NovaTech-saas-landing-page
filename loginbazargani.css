@@ -74,6 +74,22 @@ border:1px solid #657166;
     border-radius: 10px;
     cursor: pointer;
 } 
+.click1:hover{
+  background: linear-gradient(270deg, #ff0080, #7928ca, #0070f3, #ff0080);
+  background-size: 400% 400%;
+  animation: movegradient 5s ease infinite;  
+}
+@keyframes movegradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
 .form span{
   color: red;
 }
