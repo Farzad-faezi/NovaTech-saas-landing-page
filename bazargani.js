@@ -24,7 +24,7 @@ function validation(){
         'please fill out'
         return false;
     };
-    if(email.indexof("@") <= 0){
+    if(email.indexOf("@") <= 0){
         document.getElementById("Email").innerHTML=
         "please fill out";
         return false;
